@@ -1,0 +1,61 @@
+.main {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  background: #131316;
+  border: 2px solid #4c4cff;
+  width: 600px;
+}
+.title {
+  color: #f2f2f3;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: left;
+  background: #131316;
+  border: 1px dashed #4c4cff;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.tabs__el {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  color: #8585ad;
+  background: #131316;
+  box-shadow: inset 0px -1px 0px #2f2f37;
+}
+.tabs__el_active {
+  color: #f2f2f3;
+  box-shadow: inset 0px -2px 0px #4c4cff;
+}
+.headline {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  color: #f2f2f3;
+  background: #131316;
+  border: 1px dashed #4c4cff;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 16px;
+}
+.group__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
